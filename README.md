@@ -1,2 +1,2 @@
-# DaiDIimon.github.io
+# DaiDiimon.github.io
 My website
