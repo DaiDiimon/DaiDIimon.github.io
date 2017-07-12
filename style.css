@@ -1,5 +1,130 @@
 body{
-    background-color: green;
+	font-family: 'Muli', sans-serif;
+    background-color: #8993b7;
     color:white;
-    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#wrapper{
+  margin: 0 auto;
+  max-width: 1020px;
+  width: 98%;
+  background-color: #ccd6fc;
+  box-shadow: 0 0 10px 0px rgba(12,3,25,0.8);
+  border-radius: 10px;
+}
+
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+nav{
+	overflow: hidden;
+	background-color: #f99a8e;
+	position: fixed; 
+	top:0;
+	padding: 10px 0px 10px 0px;
+	margin: 0;
+	width: 100%;
+	border-bottom: red 3px solid;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header li{
+	display: inline;
+	float: right;
+	font-size: 16px;
+	padding: 5px 20px 0px 20px;
+}
+header a{
+	text-decoration: none;
+}
+
+#logo{
+	max-height: 24px;
+	margin: 0;
+	padding-top: 2px;
+}
+
+#intro{
+	background:url("images/intro_pic.jpg") no-repeat 0 -200px;
+	background-size: 1082px;
+	min-height: 400px;
+	padding:0;
+	margin:0;
+	margin-top: 52px;
+}
+
+#intro h1{
+	padding-top: 10%;
+	font-size: 50px;
+}
+
+#intro p{
+	padding-top:15px;
+	font-size: 30px;
+}
+
+#description{
+	padding:20px 0 20px 0;
+	margin:0;
+	color:#ededed;
+	background-color: #a2bcaf;
+}
+
+#description h1{
+	font-size: 38px;
+}
+
+#description p{
+	font-size: 16px;
+}
+
+#portfolio{
+	padding:20px 0 20px 0;
+	margin:0;
+	color:#ededed;
+	background-color: #b0a2bc;
+}
+
+#portfolio h1{
+	font-size: 38px;
+}
+
+#contact{
+	padding:20px 0 20px 0;
+	color:#ededed;
+	margin:0;
+	background-color: #bca2a2;
+	border-bottom-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+
+#contact h1{
+	font-size: 38px;
+}
+
+footer{
+	overflow: auto;
+	width: 100%;
+
+}
+
+.twoBox{
+	width: 43%;
+	float: left;
+	margin: 2% 2%;
 }
