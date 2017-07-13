@@ -16,11 +16,12 @@
         
       	<nav>
         <div class="container">
+                       <a href="index.html"><img id="logo" src="images/logo.png"></a>
+
           <ul>
-               <a href="index.html"><img id="logo" src="images/logo.png"></a>
-              <li><a href="#contact">CONTACT</a></li>
-               <li><a href="#portfolio">WORKS</a></li>
-         	  	<li><a href="#intro">HOME</a></li>
+               <a href="#intro"><li>HOME</li></a>
+               <a href="#portfolio"><li>WORKS</li></a>
+         	  	<a href="#contact"><li>CONTACT</li></a>
         	 </ul>
         </div>
          </nav>
@@ -62,9 +63,11 @@
             </div>
             <div>
               <label>Message</label><br>
-              <textarea placeholder="Message here..." rows=5></textarea>
+              <textarea placeholder="Message here..." rows=5 required data-validation-required-message="Please enter a message."></textarea>
             </div>
-            <button type="submit">Send</button>
+            <div class="center">
+              <button type="submit" class="send_button">Send</button>
+            </div>
           </form>
         </div>
       </div>
